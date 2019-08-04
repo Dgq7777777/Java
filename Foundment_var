@@ -1,0 +1,62 @@
+package hello;
+
+import java.util.Scanner;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		System.out.println("你好");
+//		output
+		Scanner in = new Scanner(System.in);
+//		input
+//		System.out.println( "echo:"+in.nextLine());
+//		Link +
+//		System.out.println("2+3="+5);
+//		System.out.println("100-23="+(100-in.nextInt()));
+//		int price=0;
+//		final int amount=100;
+//		int amount;
+//		初始化
+//		System.out.println(price);
+//		System.out.println("请输入总数:");
+//		amount=in.nextInt();
+//		System.out.println("请输入金额:");
+//		price = in.nextInt();
+//		这一行 在赋值,表达式，如果输入不是整数
+//		
+//		System.out.println(amount +"-"+price+"="+(100-price));
+//		引出变量
+//		
+//		
+//		System.out.println(2+3);
+//		"" is description
+//
+//		
+//		英尺的转换
+		int foot;	
+		double inch;
+	
+		foot = in.nextInt();
+		inch = in.nextDouble();
+		System.out.println("foot:"+foot + " inch:"+ inch);
+		
+		foot=(int)(30/3.0);
+//不会改变原来的值
+				System.out.println((foot+inch/12)*0.3048);
+//		整数和整数的运算结果都是整数 在JAVA中 0和0.0是完全不同的数
+//		System.out.println((foot+inch/12.0)*0.3048);
+//	浮点数  double JAVA中不推荐用char和float
+		System.out.println( (int) ((foot+inch/12)*0.3048*100) +"cm");
+		
+//		System.out.println(1.2-1.1);
+//		浮点数之间的计算是有误差的
+
+//运算符优先级 + - * / % 
+//+单目运算符a*-b 优先级最高
+//		+字符连接符
+//结合关系
+	}
+
+}
